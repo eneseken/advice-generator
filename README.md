@@ -4,6 +4,6 @@
 
 ## Live! 🚀
 
-[Live Demo](https://front-end-c-11.netlify.app)
+[Live Demo](https://advice-generator-eneseken.netlify.app)
 <hr/>
 <a href="https://eneseken.com">Website</a>
