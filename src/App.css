@@ -1,0 +1,70 @@
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100svh;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1069%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(31%2c 38%2c 50%2c 1)'%3e%3c/rect%3e%3cpath d='M1245.1144513514391 431.8835856641349L1245.1144513514391 521.4650907973065 1334.6959564846109 431.8835856641349z' fill='rgba(82%2c 255%2c 168%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M229.38 149.82 a117.57 117.57 0 1 0 235.14 0 a117.57 117.57 0 1 0 -235.14 0z' fill='rgba(82%2c 255%2c 168%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M395.6057439227805 302.18739156436493L275.341440606261 368.7012318136507 377.2236548462188 432.3643049968603z' fill='rgba(82%2c 255%2c 168%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1032.43 115.42 a138.11 138.11 0 1 0 276.22 0 a138.11 138.11 0 1 0 -276.22 0z' fill='rgba(82%2c 255%2c 168%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M396.2284086259807 15.045890997256095L444.5666013939776 114.1538733244807 543.6745837212022 65.81568055648384 495.3363909532053-33.29230177074076z' fill='rgba(82%2c 255%2c 168%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M531.5274503917856 319.39941364221903L556.5266269917491 263.2503436813751 459.80343375050154 253.8261137618518z' fill='rgba(82%2c 255%2c 168%2c 1)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1069'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.container{
+  width: 500px;
+  height: auto;
+}
+
+.dark-blue{
+  background-color:   hsl(217, 19%, 24%);
+
+}
+
+
+quote{
+  font-size: 28px;
+}
+
+.dice-btn{
+  width: 5%;
+  height: 50px;
+  padding: 30px;
+  border-radius: 50%;
+  position: relative;
+  background-color: hsl(150, 100%, 66%);
+  top: 30px;
+  border: none;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .3s all;
+}
+
+.dice-btn:hover{
+  box-shadow: 0px 0px 20px hsl(150, 100%, 66%);
+}
+
+.advice-number{
+  color: hsl(150, 100%, 66%);
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+
+.dice{
+  background-size: cover;
+
+}
+
+@media (max-width: 501px) {
+  main{
+    min-width: 100%;
+    min-height: 100svh;
+  }
+
+
+
+  .divider{
+    width: 100%;
+  }
+}
